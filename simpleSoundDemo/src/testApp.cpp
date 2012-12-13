@@ -20,10 +20,10 @@ void testApp::setup(){
     
     
     // load in sounds
-    voice_sound = ofSoundPlayerWithData( "sounds/voice.wav" );
-    drums_sound = ofSoundPlayerWithData( "sounds/drums.wav" );
-    piano_sound = ofSoundPlayerWithData( "sounds/piano.wav" );
-    rest_sound = ofSoundPlayerWithData( "sounds/rest.wav" );
+    voice_sound = ofSoundPlayerWithData( "sounds/voice.aif" );
+    drums_sound = ofSoundPlayerWithData( "sounds/drums.aif" );
+    piano_sound = ofSoundPlayerWithData( "sounds/piano.aif" );
+    rest_sound = ofSoundPlayerWithData( "sounds/rest.aif" );
     
     image_bg.allocate( 1810, 784, OF_IMAGE_COLOR );
     image_bg.loadImage( "images/mars_surface.jpg" );
