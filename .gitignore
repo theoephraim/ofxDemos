@@ -1,0 +1,4 @@
+*.app
+.DS_Store
+simpleSoundDemo/bin/data/sounds/*
+*.xcodeproj
